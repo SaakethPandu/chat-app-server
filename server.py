@@ -5,7 +5,7 @@ from tkinter import simpledialog, scrolledtext, messagebox
 
 # Function to connect to the server
 def connect_to_server(nickname):
-    server_host = '127.0.0.1'
+    server_host = '0.0.0.0'
     server_port = 55555
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
